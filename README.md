@@ -162,7 +162,7 @@ This project demonstrates <b>real-time messaging</b>, <b>secure authentication</
 
 <h3>Backend</h3>
 <pre>
-git clone YOUR_REPO_LINK
+git clone https://github.com/PratikZagade/Real-Time-Chat-App.git
 cd backend
 mvn spring-boot:run
 </pre>
