@@ -1,0 +1,122 @@
+/* 🔥 RESET */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 🔥 MAIN CONTAINER */
+.main-container {
+  display: flex;
+  height: 100vh;
+  background-color: #ece5dd;
+}
+
+/* 🔥 LEFT PANEL */
+.left-panel {
+  width: 25%;
+  min-width: 250px;
+  background-color: #f0f2f5;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 🔥 USER INFO */
+.user-info {
+  margin-bottom: 20px;
+}
+
+.user-info h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-info p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* 🔥 STATUS BOX */
+.status {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+}
+
+/* STATUS COLORS */
+.status.connected {
+  color: #28a745;
+}
+
+.status.disconnected {
+  color: #dc3545;
+}
+
+.status.connecting,
+.status.reconnecting {
+  color: #ff9800;
+}
+
+/* 🔥 LOGOUT BUTTON */
+.logout-btn {
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4d4f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #d9363e;
+}
+
+/* 🔥 RIGHT PANEL */
+.right-panel {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5ddd5;
+}
+
+/* 🔥 CHAT HEADER (OPTIONAL) */
+.chat-header {
+  padding: 15px;
+  background-color: #075e54;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* 🔥 CHAT AREA */
+.chat-area {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+}
+
+/* 🔥 SCROLLBAR (OPTIONAL BEAUTY) */
+.chat-area::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-area::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 10px;
+}
+
+.chat-area::-webkit-scrollbar-track {
+  background-color: transparent;
+}
