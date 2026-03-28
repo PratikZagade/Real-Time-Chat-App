@@ -6,7 +6,7 @@ This project demonstrates <b>real-time messaging</b>, <b>secure authentication</
 </p>
 
 <p>
-<a href="YOUR_DEMO_VIDEO_LINK" target="_blank">
+<a href="https://drive.google.com/file/d/1z8imYfPWySSUZZNBCYzGo42U2p2xKpZJ/view?t=3.793" target="_blank">
 👁️ <b>Watch Demo Video</b>
 </a>
 </p>
